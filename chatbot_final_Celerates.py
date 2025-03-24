@@ -42,7 +42,7 @@ def chat(contexts, history, question):
 
 
 # Begin streamlit with title
-st.title("AI Chatbot Assistant")
+st.title("Testing Chatbot Project")
 
 # Give external data contexts
 uploaded_file = st.file_uploader("Choose a file", type=["csv", "xls", "xlsx"])
