@@ -3,7 +3,7 @@ import pandas as pd
 from langchain_google_genai import ChatGoogleGenerativeAI
 from langchain_core.prompts import ChatPromptTemplate
 
-API_KEY = "AIzaSyDT3auNLtHFb5rkgZfrpikZkfFcdohoUro"
+API_KEY = ""
 
 def chat(contexts, history, question):
     llm = ChatGoogleGenerativeAI(
